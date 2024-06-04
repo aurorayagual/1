@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio39</title>
+</head>
+<body>
+   <form action="registrardatos.php" method="post">
+    <fieldset>
+        <legend>Selecciona tu pedidio de pizza</legend>
+        pizza:
+        <select name="pizza1">
+            <option value="1">jamon y queso</option>
+            <option value="2">pepperoni</option>
+            <option value="3">champiñones</option>
+            <option value="4">hawaiana</option>
+            <option value="5">cuatro quesos</option>
+        </select>
+        Cantidad:
+        <select name="Cantidad1">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <br>
+        pizza:
+        <select name="pizza2">
+            <option value="1">jamon y queso</option>
+            <option value="2">pepperoni</option>
+            <option value="3">champiñones</option>
+            <option value="4">hawaiana</option>
+            <option value="5">cuatro quesos</option>
+        </select>
+        Cantidad:
+        <select name="Cantidad2">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+    </fieldset>
+    <fieldset>
+    <legend>Datos del cliente</legend>
+    Nombre:
+    <input type="text" name="Nombre" size="30"><br>
+    Direccion:
+    <input type="text" name="Direccion" size="25"><br>
+    Telefono:
+    <input type="text" name="Telefono" size="10">
+    </fieldset>
+    <input type="submit" value="enviar">
+   </form>  
+</body>
+</html>
